@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task list</title>
+  <link href="images/icon.png" rel="icon">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/container.css" rel="stylesheet">
+  <link href="css/section.css" rel="stylesheet">
+  <link href="css/form.css" rel="stylesheet">
+  <link href="css/task.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <script defer src="js/script.js"></script>
+</head>
+
+<body>
+
+  <main class="container">
+    <header>
+      <h1>List of tasks</h1>
+    </header>
+
+    <section class="section">
+      <h2 class="section__header">Add new task</h2>
+      <div class="section__form">
+        <form class="form js-form">
+          <input class="form__input js-newTask" placeholder="add your task here" autofocus>
+          <button class="form__button">Add task</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section">
+      <header class="section__header">
+        <h2>List of tasks</h2>
+        <div class="section__buttons js-sectionButtons">
+          <button class="section__button js-allTaskHideButton js-buttons">Hide completed</button>
+          <button class="section__button js-allTaskFinaliseButton js-buttons">Finalise all</button>
+        </div>
+      </header>
+      <div class="section__form">
+        <ul class="tasks js-tasks">
+          <li class="tasks__item js-tasks">
+            <button class="tasks__button task__button--toggleDone js-toggleDone">✔</button>
+            <span class="tasks__content tasks__content--done"></span>
+            <button class="tasks__button task__button--remove js-remove">🗑</button>
+          </li>
+          <li class="tasks__item js-tasks">
+            <button class="tasks__button task__button--toggleDone js-toggleDone">✔</button>
+            <span class="tasks__content tasks__content--done"></span>
+            <button class="tasks__button task__button--remove js-remove">🗑</button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+
+</html>
