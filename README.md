@@ -17,5 +17,6 @@
 <br>5. Grid
 <br>6. Flex
 <br>7. JavaScript
-<br>8. GIT
-<br>9. Markdown
+<br>8. Immutability
+<br>9. GIT
+<br>10. Markdown
