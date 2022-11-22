@@ -1,5 +1,6 @@
 # Modified task list from homepage_6
-
+## Demo
+<br><a rel="noreferrer noopener" target="_blank" href="https://parvinaodinaeva.github.io/homepage_7/" title="converter">Preview of work</a>
 ## *Description*
 <br>Here I present my first work related to functions, objects & tables in Javascript
 <br>*Method of use*
