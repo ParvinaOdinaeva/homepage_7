@@ -10,7 +10,7 @@
     grid-gap: 20px;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     border-bottom: 1px solid #ddd;
 }
 
@@ -21,38 +21,39 @@
 }
 
 .section__form {
-    padding: 20px;
+    padding: 10px;
 }
 
-.section__buttons {
+.buttons {
     display: flex;
     flex-wrap: wrap;
 }
 
-.section__buttons:hover {
+.buttons:hover {
     color: hsl(180, 100%, 35%);
 }
 
 
-.section__buttons:disabled {
+.buttons:disabled {
     color: #ccc;
 }
 
-.section__button {
+.buttons__button {
     background-color: transparent;
     border: none;
     color: teal;
     cursor: pointer;
     transition: color 0.9s;
-    margin: 0 0 0 20px;
+    margin: 20px;
 }
 
-.section__button:hover {
-    transform: scale(1.1);
+
+.buttons__button:hover {
+    color: hsl(180, 61%, 53%);
 }
 
 @media (max-width: 767px) {
-    .section__button {
+    .buttons__button {
         flex-basis: 100%;
         margin: 10px;
     }

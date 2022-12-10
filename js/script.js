@@ -73,8 +73,8 @@
         return;
       }
       buttonsElements.innerHTML =
-      `<button class="section__button js-allTaskHideButton js-buttons">${hideDoneTasks ? "Show" : "Hide"} completed</button>
-      <button class="section__button js-allTaskFinaliseButton js-buttons" 
+      `<button class="buttons__button js-allTaskHideButton js-buttons">${hideDoneTasks ? "Show" : "Hide"} completed</button>
+      <button class="buttons__button js-allTaskFinaliseButton js-buttons" 
       ${ taskTable.every(({ done }) => done) ? " disabled" : ""}>Finalise all</button>`;
     };
   
