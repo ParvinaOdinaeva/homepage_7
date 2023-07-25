@@ -1,0 +1,19 @@
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons__button {
+    background-color: transparent;
+    color: teal;
+    border: none;
+    margin: 0 0 0 20px;
+}
+
+.buttons__button:hover {
+    color: hsl(180, 100%, 35%);
+}
+
+.buttons__button:disabled {
+    color: #ccc;
+}
