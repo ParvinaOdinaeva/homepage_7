@@ -1,6 +1,7 @@
 .buttons {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .buttons__button {
