@@ -24,3 +24,9 @@
     padding: 20px;
     border-bottom: 1px solid #ddd;
 }
+
+@media (max-width: 767px) {
+    .section__title {
+    grid-template-columns: 1fr;
+}
+}
